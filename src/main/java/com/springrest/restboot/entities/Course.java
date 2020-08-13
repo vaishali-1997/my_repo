@@ -22,6 +22,10 @@ public class Course {
 	public void setDescription(String description) {
 		this.description = description;
 	}
+	public Course()
+	{
+		
+	}
 	public Course(long id, String title, String description) {
 		super();
 		this.id = id;
